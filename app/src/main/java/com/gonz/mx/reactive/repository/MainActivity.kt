@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         addFragment(R.id.fragment_emit_button, EmitButtonFragment())
+        addFragment(R.id.fragment_observer_tv, SubscribeTextViewFragment())
     }
 
     private fun addFragment(@IdRes container: Int, fragment: Fragment) {
